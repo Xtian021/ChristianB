@@ -1,0 +1,115 @@
+/* Global styles */
+body {
+    background-image: url('background.webp');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  /* Header styles */
+  header {
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  /* Navigation styles */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+    color: #425997;
+  }
+  
+  /* Contact section */
+  .contact-details {
+    margin: 40px auto;
+    padding: 20px;
+    background: rgba(39, 79, 167, 0.8);
+    border-radius: 8px;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contact-details h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #343a40;
+    text-align: center;
+  }
+  
+  .contact-details form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .contact-details label {
+    font-weight: bold;
+  }
+  
+  .contact-details input,
+  .contact-details textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .contact-details textarea {
+    resize: vertical;
+  }
+  
+  .contact-details button {
+    padding: 10px;
+    background-color: #343a40;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-details button:hover {
+    background-color: #495057;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #4d5f70;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem;
+  }
+  

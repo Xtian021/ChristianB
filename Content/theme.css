@@ -1,0 +1,83 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #196dda; 
+    color: #333;
+  }
+  
+  header {
+    text-align: center;
+    padding: 30px;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+ 
+  .department {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+    padding: 0 20px;
+    color: white;
+  }
+  
+  .department div {
+    background-color: rgb(85, 127, 167); 
+    border-radius: 12px;
+    width: 28%;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    position: relative;
+  }
+  
+  .department div:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: #35383b; 
+  }
+  
+  .department img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .department h3 {
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 600;
+    animation: slideUp 0.5s ease-in-out;
+    letter-spacing: 1px; 
+  }
+  
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+
+  @keyframes slideUp {
+    from {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
